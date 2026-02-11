@@ -1,0 +1,27 @@
+{
+  "name": "ceiia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint cypress",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "cypress": "^15.10.0",
+    "eslint": "^10.0.0",
+    "eslint-plugin-cypress": "^5.3.0",
+    "eslint-plugin-mocha": "^11.2.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7"
+  },
+  "lint-staged": {
+    "cypress/**/*.js": "eslint"
+  }
+}
