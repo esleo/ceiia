@@ -1,5 +1,2 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
-echo "Houve uma tentativa de commit! Rodando o Lint..."
+echo "Performing QA checks before commit..."
 npx lint-staged

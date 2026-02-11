@@ -1,1 +1,5 @@
-undeclaredVar = 5; // ERROR
+describe('template spec', () => {
+  it('passes', () => {
+    cy.visit('https://example.cypress.io')
+  })
+})
