@@ -22,6 +22,6 @@
     "lint-staged": "^16.2.7"
   },
   "lint-staged": {
-    "cypress/**/*.js": "eslint"
+    "cypress/**/*.js": "eslint --max-warnings=0"
   }
 }
