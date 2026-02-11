@@ -1,1 +1,1 @@
-undeclaredVar = 5; // ERROR: no-undef
+undeclaredVar = 5;
