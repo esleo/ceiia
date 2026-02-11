@@ -1,2 +1,1 @@
-cy.visit('/'); // normal
-undeclaredVar = 5;
+undeclaredVar = 5; // ERROR: no-undef
