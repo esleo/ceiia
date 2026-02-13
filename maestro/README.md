@@ -1,8 +1,9 @@
 # Relatório de Testes Automatizados
 
 **Responsável**: Leonardo Pinto     
-**Data**: 12 de fevereiro de 2026 
-**Dispositivo**: Samsung Galaxy S10E (One UI 4.1)
+**Data**: 12 de fevereiro de 2026   
+**Dispositivo**: Samsung Galaxy S10E (One UI 4.1)   
+**Conectividade testada**: Wi-Fi
 
 ## Resumo
 
