@@ -1,0 +1,19 @@
+appId: com.ceiia.ayr
+---
+- launchApp
+
+- tapOn:
+    id: "action_iv"
+    index: 0 # bike
+
+- tapOn:
+    id: start_activity_btn
+
+- tapOn:
+    id: stop_btn
+
+- tapOn:
+    id: btnEnd
+
+- assertVisible:
+    id: offlineTitle

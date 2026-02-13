@@ -11,10 +11,15 @@ export default [
         Cypress: "readonly",
         describe: "readonly",
         it: "readonly",
+        context: "readonly",
         before: "readonly",
         beforeEach: "readonly",
         after: "readonly",
-        afterEach: "readonly"
+        afterEach: "readonly",
+        expect: "readonly",
+        URL: "readonly",
+        window: "readonly",
+        document: "readonly"
       }
     },
     rules: {

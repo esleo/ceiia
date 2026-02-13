@@ -1,0 +1,40 @@
+appId: com.ceiia.ayr
+---
+- launchApp
+
+- assertVisible:
+    id: videoView
+
+- swipe:
+    direction: LEFT
+- swipe:
+    direction: LEFT
+- swipe:
+    direction: LEFT
+
+- tapOn:
+    id: button
+
+- tapOn:
+    id: login_cv
+
+- tapOn:
+    id: login_cv
+
+- assertVisible:
+    focused: true
+
+- inputText: ${PHONE_NUMBER}
+
+- tapOn:
+    id: login_password_til
+
+- inputText: ${PASSWORD}
+
+- hideKeyboard
+
+- tapOn:
+    id: login_btn
+
+- assertNotVisible:
+    id: log_in_title_tv
